@@ -15,5 +15,11 @@ Open the Python script in Google Colaboratory, and upload the .txt file in the f
 Read in the .txt file as a string using 'str.capwords()' to capitalise the first letter of each word and convert the remaining letters to lowercase.
 
 ### Creating the List
-Using the 'split()' function, convert the text string to a list and print the list. To isolate 
+Using the 'split()' function, convert the text string to a list and print the list. To isolate the bibliographic metadata based on positions in the list, assign each list item to a new variable. For example, 'author1' to include last name and first name of the author, 'title' for the title of the work, and 'publisher' for the publisher's details.
+
+## Encoding Text Using risPy
+Install and import rispy, and define the entries for type of material, id, primary_title, first_authors, abstract and publisher, inserting the list variables at the relevant fields.
+
+## Exporting to .ris
+Creating a new filepath 'export.ris', open the filepath and write out as bibliography_file. To check the contents and fields have been assigned correctly, open the file and read in as data and print.
 
